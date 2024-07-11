@@ -1,0 +1,2 @@
+# HackerrankSQLSolutions
+Hackkerrank SQL Solutions
