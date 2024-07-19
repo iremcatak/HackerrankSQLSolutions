@@ -1,0 +1,8 @@
+/* 
+Given: 
+total earning =salary* months -> int* int = int
+Find: 
+max total earning (for all employees) 
+total num of employees (who have max total earnings)
+*/
+Select MAX(salary*months)  ,count(*) from employee where salary*months = (select max(salary*months) from employee)
