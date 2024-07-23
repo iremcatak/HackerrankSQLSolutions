@@ -1,0 +1,1 @@
+Select Format(Round(SUM(LAT_N),2),'#.00')AS lat , Format(Round(SUM(LONG_W),2),'#.00')as lon FROM STATION
