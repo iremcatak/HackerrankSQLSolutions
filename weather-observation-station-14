@@ -1,0 +1,1 @@
+Select  top (1) Format(LAT_N,'#.0000') FROM STATION where LAT_N<137.2345 order by LAT_N desc;
